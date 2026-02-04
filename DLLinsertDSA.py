@@ -31,7 +31,7 @@ class DLlist:
     def printDLL(self):
         t1 = self.head
         while (t1.next != None):
-            print(t1.data)
+            print(t1.data , end = "<-->")
             t1 = t1.next 
         print(t1.data)
 
@@ -44,5 +44,6 @@ obj.ELEatEnd(40)
 #adding element at the end of DLL aafter creating one 
 obj.ELEatEnd(50)
 obj.printDLL()
+
 
 
