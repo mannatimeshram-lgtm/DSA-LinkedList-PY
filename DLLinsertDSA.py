@@ -1,6 +1,6 @@
 """
 1. create a DLL
-2. insert an  element at the beginning . 
+2. insert an  element at the end. 
 """
 
 class Node :
@@ -44,4 +44,5 @@ obj.ELEatEnd(40)
 #adding element at the end of DLL aafter creating one 
 obj.ELEatEnd(50)
 obj.printDLL()
+
 
